@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineTrackingSystem", "MedicineTrackingSystem\MedicineTrackingSystem.csproj", "{87EEC570-2E0E-44FF-8DB2-DC2B03A27E46}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F53AC040-0FEC-4325-96CA-E92DB463D26F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineTrackingSystem_uTest", "MedicineTrackingSystem_uTest\MedicineTrackingSystem_uTest.csproj", "{A9D9E5AB-2F26-4409-8BEF-143CA3A7B808}"
 EndProject
 Global
