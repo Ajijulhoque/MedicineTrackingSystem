@@ -1,0 +1,13 @@
+<h3>Medicine Inventory:</h3>
+<mat-grid-list cols="4" rowHeight="250px">
+  <mat-grid-tile *ngFor="let medicine of medicines; let index = index;">
+    <div>
+      <p>Name :{{medicine.fullName}}</p>
+      <p>Brand {{medicine.brand}}</p>
+      <p>Price: {{medicine.price}}</p>
+      <p>Quantity :{{medicine.quantity}}</p>
+      <p>Expiry Date: {{medicine.expiryDate}}</p>
+      <p>Notes: {{medicine.notes}}</p>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
